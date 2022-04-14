@@ -1,0 +1,19 @@
+body {
+    font-family: 'Akshar', sans-serif;
+    background-color: #f2d6b2;
+
+}
+
+nav,
+footer,
+header {
+    background-color: white;
+    padding: 5px 10px;
+    width: 95%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 5px auto;
+}
