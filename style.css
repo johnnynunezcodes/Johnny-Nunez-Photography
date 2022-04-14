@@ -6,7 +6,8 @@ body {
 
 nav,
 footer,
-header {
+header,
+section {
     background-color: white;
     padding: 5px 10px;
     width: 95%;
@@ -14,6 +15,20 @@ header {
     margin: 0 auto;
 }
 
-header {
+header,
+section {
     margin: 5px auto;
+}
+
+div.photo {
+    background-color: #847560;
+    width: 100%;
+    height: 100px;
+}
+
+div#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin-bottom: 25px;
 }
